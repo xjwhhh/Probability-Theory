@@ -17,4 +17,7 @@ n=20#所有数据数量
 # print(f.isf(0.05,m-1,n-m))#0.05上分位数
 # print(f.isf(0.01,m-1,n-m))#0.01上分位数
 
-print(result[0]>=f.isf(0.05,m-1,n-m))
+if(result[0]>=f.isf(0.05,m-1,n-m)):
+    print("这四种除杂方法有显著差别")
+else:
+    print("这四种除杂方法没有显著差别")
