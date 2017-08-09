@@ -89,27 +89,6 @@ else:
 
 
 
-SE = ST - SA - SB
-ft = n - 1
-fa = a - 1
-fb = b - 1
-fe = (a - 1) * (b - 1)
-VA = SA / fa
-VB = SB / fb
-VE = SE / fe
-FA = VA / VE
-FB = VB / VE
-f1 = f.isf(0.05, fa, fe)
-f2 = f.isf(0.05, fb, fe)
-
-
-
-#
-# formula = 'result~C(A)+C(B)+C(A):C(B)'
-# anova_results = anova_lm(ols(formula,df).fit())
-# print (anova_results)
-
-
 
 
 
